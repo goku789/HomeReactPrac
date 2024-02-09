@@ -6,14 +6,19 @@ import Message from './componet/Message';
 import { Counter } from './componet/Counter'
 import FunctionalClick from './componet/FunctionalClick'
 import ClassClick from './componet/ClassClick'
+import EventBind from './componet/EventBind'
 
 
 
 function App() {
   return (
     <div className="App">
-      <ClassClick/>
-      <FunctionalClick/>
+
+    <EventBind/>
+
+
+      {/* <ClassClick/>
+      <FunctionalClick/> */}
       
       {/* <FunctionalClick/> <Counter /> */}
       {/* <Welcome name="Adesh"/>
