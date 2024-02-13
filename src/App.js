@@ -8,6 +8,7 @@ import FunctionalClick from './componet/FunctionalClick'
 import ClassClick from './componet/ClassClick'
 import EventBind from './componet/EventBind'
 import ParentComponet from './componet/ParentComponet';
+import ConditionalRendering from './componet/ConditionalRendering';
 
 
 
@@ -15,7 +16,8 @@ function App() {
   return (
     <div className="App">
 
-   <ParentComponet/>
+<ConditionalRendering/>
+   {/* <ParentComponet/> */}
       {/* <ClassClick/>
       <FunctionalClick/> */}
       
