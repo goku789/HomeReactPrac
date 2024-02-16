@@ -8,6 +8,9 @@ import FunctionalClick from './componet/FunctionalClick'
 import ClassClick from './componet/ClassClick'
 import EventBind from './componet/EventBind'
 import ParentComponet from './componet/ParentComponet';
+import UserGreeting from './componet/UserGreeting';
+import Namelist from './componet/Namelist';
+import Form from './componet/Form';
 
 
 
@@ -15,7 +18,7 @@ function App() {
   return (
     <div className="App">
 
-   <ParentComponet/>
+     <Form/>
       {/* <ClassClick/>
       <FunctionalClick/> */}
       

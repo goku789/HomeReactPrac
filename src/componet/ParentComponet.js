@@ -17,7 +17,7 @@ import ChildComponent from './ChildComponent'
     }
     
   render() {
-    return (
+    return ( 
       <div>
         <ChildComponent greetHandler={this.greetMethods}></ChildComponent>
       </div>
